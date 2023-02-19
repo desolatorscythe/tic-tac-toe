@@ -1,0 +1,26 @@
+body {
+  background-image: url(gradient.jpeg);
+}
+.block {
+  color: white;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 1px solid white;
+  box-sizing: border-box;
+  line-height: 100px;
+  text-align: center;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.container {
+  height: 50em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#game {
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
